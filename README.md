@@ -1,12 +1,22 @@
-# Pokémon Emerald
+# Pokémon Emerald QOL Project
 
-[![Build Status][travis-badge]][travis]
+This is a hack project based on the Pokémon Emerald Disassembly. The
+goal of this hack is to allow the player to get into the action quickly,
+reducing pointless time-sinks where possible while still providing for
+challenging battles.
 
-This is a disassembly of Pokémon Emerald.
+This hack will not make changes to the Gen 3 meta.
 
-It builds the following rom:
+Current changes include:
 
-* pokeemerald.gba `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+* Running allowed anywhere.
+* Make TMs re-usable.
+* Allow HMs to be forgotten when learning new moves.
+* The RNG is either fixed or even more broken, testing needed
+* The player's party is completely healed before and after every battle.
+* Bag items are not usable in trainer battles, either by the AI or the player.
+
+Please do file issues to report bugs or suggest improvements.
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
