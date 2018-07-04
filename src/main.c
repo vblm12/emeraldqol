@@ -105,6 +105,7 @@ void AgbMain()
     ResetBgs();
     SetDefaultFontsPointer();
     InitHeap(gHeap, HEAP_SIZE);
+    SeedRngWithRtc();
 
     gSoftResetDisabled = FALSE;
 
@@ -154,6 +155,14 @@ void AgbMain()
     }
 }
 
+
+static void SeedRngWithRtc(void)
+{
+    u32 seed = RtcGetMinuteCount();
+    seed = (seed >> 16) ^ (seed & 0xFFFF);
+    SeedRng(seed);
+}
+
 static void UpdateLinkAndCallCallbacks(void)
 {
     if (!HandleLinkConnection())
@@ -194,7 +203,6 @@ void StartTimer1(void)
 void SeedRngAndSetTrainerId(void)
 {
     u16 val = REG_TM1CNT_L;
-    SeedRng(val);
     REG_TM1CNT_H = 0;
     gTrainerId = val;
 }
