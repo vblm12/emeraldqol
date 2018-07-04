@@ -116,6 +116,7 @@ extern void sub_81A56E8(u8 battlerId); // battle frontier 2
 extern void sub_81B8FB0(u8, u8); // party menu
 extern u8 pokemon_order_func(u8); // party menu
 extern bool8 InBattlePyramid(void);
+extern void HealPlayerParty(void);
 
 // this file's functions
 static void CB2_InitBattleInternal(void);
@@ -2942,6 +2943,7 @@ void nullsub_20(void)
 
 void BeginBattleIntro(void)
 {
+    HealPlayerParty();
     BattleStartClearSetData();
     gBattleCommunication[1] = 0;
     gBattleMainFunc = BattleIntroGetMonsData;
@@ -4949,6 +4951,7 @@ static void RunTurnActionsFunctions(void)
 static void HandleEndTurn_BattleWon(void)
 {
     gCurrentActionFuncId = 0;
+    HealPlayerParty();
 
     if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_x2000000))
     {
