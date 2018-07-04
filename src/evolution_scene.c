@@ -936,20 +936,12 @@ static void Task_EvolutionScene(u8 taskID)
                 else
                 {
                     u16 move = GetMonData(mon, var + MON_DATA_MOVE1);
-                    if (IsHMMove2(move))
-                    {
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_ID_ADDER]);
-                        BattleHandleAddTextPrinter(gDisplayedStringBattle, 0);
-                        gTasks[taskID].tLearnMoveState = 12;
-                    }
-                    else
-                    {
-                        PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
 
-                        RemoveMonPPBonus(mon, var);
-                        SetMonMoveSlot(mon, gMoveToLearn, var);
-                        gTasks[taskID].tLearnMoveState++;
-                    }
+                    PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
+
+                    RemoveMonPPBonus(mon, var);
+                    SetMonMoveSlot(mon, gMoveToLearn, var);
+                    gTasks[taskID].tLearnMoveState++;
                 }
             }
             break;
@@ -1270,22 +1262,14 @@ static void Task_TradeEvolutionScene(u8 taskID)
                 else
                 {
                     u16 move = GetMonData(mon, var + MON_DATA_MOVE1);
-                    if (IsHMMove2(move))
-                    {
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_ID_ADDER]);
-                        sub_807F1A8(0, gDisplayedStringBattle, 1);
-                        gTasks[taskID].tLearnMoveState = 11;
-                    }
-                    else
-                    {
-                        PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
 
-                        RemoveMonPPBonus(mon, var);
-                        SetMonMoveSlot(mon, gMoveToLearn, var);
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_123POOF - BATTLESTRINGS_ID_ADDER]);
-                        sub_807F1A8(0, gDisplayedStringBattle, 1);
-                        gTasks[taskID].tLearnMoveState++;
-                    }
+                    PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
+
+                    RemoveMonPPBonus(mon, var);
+                    SetMonMoveSlot(mon, gMoveToLearn, var);
+                    BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_123POOF - BATTLESTRINGS_ID_ADDER]);
+                    sub_807F1A8(0, gDisplayedStringBattle, 1);
+                    gTasks[taskID].tLearnMoveState++;
                 }
             }
             break;

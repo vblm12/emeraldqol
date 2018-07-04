@@ -1815,19 +1815,11 @@ void sub_81C174C(u8 taskId)
             }
             else if (gMain.newKeys & A_BUTTON)
             {
-                if (sub_81C18A8() == TRUE)
-                {
-                    sub_81C48F0();
-                    PlaySE(SE_SELECT);
-                    gUnknown_0203CF21 = gUnknown_0203CF1C->unk40C6;
-                    gSpecialVar_0x8005 = gUnknown_0203CF21;
-                    sub_81C044C(taskId);
-                }
-                else
-                {
-                    PlaySE(SE_HAZURE);
-                    sub_81C18F4(taskId);
-                }
+                sub_81C48F0();
+                PlaySE(SE_SELECT);
+                gUnknown_0203CF21 = gUnknown_0203CF1C->unk40C6;
+                gSpecialVar_0x8005 = gUnknown_0203CF21;
+                sub_81C044C(taskId);
             }
             else if (gMain.newKeys & B_BUTTON)
             {
