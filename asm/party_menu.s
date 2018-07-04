@@ -13013,7 +13013,7 @@ sub_81B6EB4: @ 81B6EB4
 	adds r0, r5, 0
 	movs r1, 0x4
 	bl AdjustFriendship
-	movs r0, 0xA9
+	movs r0, 0x3C
 	lsls r0, 1
 	cmp r4, r0
 	bhi _081B6EF0
