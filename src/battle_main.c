@@ -4208,6 +4208,7 @@ static void HandleTurnActionSelectionState(void)
                     if (gBattleTypeFlags & (BATTLE_TYPE_LINK
                                             | BATTLE_TYPE_FRONTIER_NO_PYRAMID
                                             | BATTLE_TYPE_EREADER_TRAINER
+                                            | BATTLE_TYPE_TRAINER
                                             | BATTLE_TYPE_x2000000))
                     {
                         RecordedBattle_ClearBattlerAction(gActiveBattler, 1);
