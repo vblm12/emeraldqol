@@ -4951,7 +4951,6 @@ static void RunTurnActionsFunctions(void)
 static void HandleEndTurn_BattleWon(void)
 {
     gCurrentActionFuncId = 0;
-    HealPlayerParty();
 
     if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_x2000000))
     {
@@ -5089,6 +5088,7 @@ static void HandleEndTurn_MonFled(void)
 
 static void HandleEndTurn_FinishBattle(void)
 {
+    HealPlayerParty();
     if (gCurrentActionFuncId == 0xB || gCurrentActionFuncId == 0xC)
     {
         if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK
