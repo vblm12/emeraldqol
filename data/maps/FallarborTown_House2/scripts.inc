@@ -13,12 +13,6 @@ FallarborTown_House2_EventScript_201383:: @ 8201383
 	end
 
 FallarborTown_House2_EventScript_2013A8:: @ 82013A8
-	checkitem ITEM_HEART_SCALE, 1
-	compare VAR_RESULT, 0
-	goto_eq FallarborTown_House2_EventScript_201452
-	msgbox FallarborTown_House2_Text_201541, 5
-	switch VAR_RESULT
-	case 0, FallarborTown_House2_EventScript_201452
 	goto FallarborTown_House2_EventScript_2013D6
 	end
 
@@ -42,8 +36,6 @@ FallarborTown_House2_EventScript_20140C:: @ 820140C
 	waitstate
 	compare VAR_0x8004, 0
 	goto_eq FallarborTown_House2_EventScript_2013D6
-	msgbox FallarborTown_House2_Text_201627, 4
-	takeitem ITEM_HEART_SCALE, 1
 	goto FallarborTown_House2_EventScript_201452
 	end
 
@@ -68,9 +60,7 @@ FallarborTown_House2_Text_20145C: @ 820145C
 	.string "learn--every one of them--and I can\l"
 	.string "teach POKéMON those moves.\p"
 	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you’d like.\p"
-	.string "I’ll do it for a HEART SCALE.\n"
-	.string "I’m collecting those now.$"
+	.string "of yours if you’d like.$"
 
 FallarborTown_House2_Text_201541: @ 8201541
 	.string "Oh! That’s it! That’s an honest to\n"
@@ -95,7 +85,7 @@ FallarborTown_House2_Text_201627: @ 8201627
 
 FallarborTown_House2_Text_201653: @ 8201653
 	.string "If your POKéMON need to learn a move,\n"
-	.string "come back with a HEART SCALE.$"
+	.string "I’ll be waiting here!$"
 
 FallarborTown_House2_Text_201697: @ 8201697
 	.string "Hunh? There isn’t a single move that\n"
