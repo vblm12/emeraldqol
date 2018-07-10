@@ -925,7 +925,7 @@ static bool8 _DoEggActions_CheckHatch(struct DayCare *daycare)
                 if (steps >= toSub)
                     steps -= toSub;
                 else
-                    steps -= 1;
+                    steps -= steps;
 
                 SetMonData(&gPlayerParty[i], MON_DATA_FRIENDSHIP, &steps);
             }
