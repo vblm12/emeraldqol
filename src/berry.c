@@ -961,12 +961,13 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
     {
     case 0:
         return FALSE;
-    case 4:
-        tree->berryYield = CalcBerryYield(tree);
     case 1:
     case 2:
     case 3:
         tree->stage++;
+        break;
+    case 4:
+        tree->berryYield = CalcBerryYield(tree);
         break;
     case 5:
         tree->watered1 = 0;
@@ -985,6 +986,7 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
 void BerryTreeTimeUpdate(s32 minutes)
 {
     int i;
+    s32 time = minutes;
     struct BerryTree *tree;
 
     for (i = 0; i < BERRY_TREES_COUNT; i++)
@@ -993,28 +995,20 @@ void BerryTreeTimeUpdate(s32 minutes)
 
         if (tree->berry && tree->stage && !tree->growthSparkle)
         {
-            if (minutes >= GetStageDurationByBerryType(tree->berry) * 71)
-            {
-                *tree = gBlankBerryTree;
-            }
-            else
-            {
-                s32 time = minutes;
 
-                while (time != 0)
+            while (time != 0)
+            {
+                if (tree->minutesUntilNextStage > time)
                 {
-                    if (tree->minutesUntilNextStage > time)
-                    {
-                        tree->minutesUntilNextStage -= time;
-                        break;
-                    }
-                    time -= tree->minutesUntilNextStage;
-                    tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry);
-                    if (!BerryTreeGrow(tree))
-                        break;
-                    if (tree->stage == 5)
-                        tree->minutesUntilNextStage *= 4;
+                    tree->minutesUntilNextStage -= time;
+                    break;
                 }
+                time -= tree->minutesUntilNextStage;
+                tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry);
+                if (!BerryTreeGrow(tree))
+                    break;
+                if (tree->stage == 5)
+                    tree->minutesUntilNextStage *= 4;
             }
         }
     }
@@ -1112,25 +1106,10 @@ u8 GetNumStagesWateredByBerryTreeId(u8 id)
 
 u8 CalcBerryYieldInternal(u16 max, u16 min, u8 water)
 {
-    u32 randMin;
-    u32 randMax;
-    u32 rand;
-    u32 extraYield;
-
     if (water == 0)
         return min;
     else
-    {
-        randMin = (max - min) * (water - 1);
-        randMax = (max - min) * (water);
-        rand = randMin + Random() % (randMax - randMin + 1);
-
-        if ((rand & 3) > 1)
-            extraYield = rand / 4 + 1;
-        else
-            extraYield = rand / 4;
-        return extraYield + min;
-    }
+        return max;
 }
 
 u8 CalcBerryYield(struct BerryTree *tree)
@@ -1149,7 +1128,7 @@ u8 GetBerryCountByBerryTreeId(u8 id)
 
 u16 GetStageDurationByBerryType(u8 berry)
 {
-    return GetBerryInfo(berry)->stageDuration * 60;
+    return GetBerryInfo(berry)->stageDuration * 10;
 }
 
 void EventObjectInteractionGetBerryTreeData(void)
