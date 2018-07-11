@@ -15,6 +15,10 @@ Current changes include:
 * The RNG is either fixed or even more broken, testing needed
 * The player's party is completely healed before and after every battle.
 * Bag items are not usable in trainer battles, either by the AI or the player.
+* The move tutor has graciously decided to work for free.
+* Trainer's underlevel Pokémon will level up with the player's highest level Pokémon.
+* Try to make all trainers use the best AI packages.
+* The number to subtract from egg cycles per step should be quadrupled.
 
 Please do file issues to report bugs or suggest improvements.
 
