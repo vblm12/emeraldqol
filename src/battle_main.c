@@ -1906,11 +1906,13 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u32 nameHash = 0;
     u32 personalityValue;
     u8 fixedIV;
-    s32 i, j;
+    s32 i, j, k;
     u8 monsCount;
     u8 playerMaxLevel = 1;
     u8 playerCurrentLevel = 1;
     u8 trainerLevel = 1;
+    u8 evoFriendship = 255;
+    u8 evoBeauty = 255;
     u16 species = 0;
 
     if (trainerNum == SECRET_BASE_OPPONENT)
@@ -2036,6 +2038,19 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                 }
                 break;
             }
+            }
+            /* Try and evolve trainer pokemon. */
+            SetMonData(&party[i], MON_DATA_FRIENDSHIP, &evoFriendship);
+            SetMonData(&party[i], MON_DATA_BEAUTY, &evoBeauty);
+            for (k = 0; k < 2; k++)
+            {
+                species = GetEvolutionTargetSpecies(&party[i], 0, 0);
+                if (species != SPECIES_NONE)
+                {
+                    EvolutionRenameMon(&party[i], GetMonData(&party[i], MON_DATA_SPECIES), species);
+                    SetMonData(&party[i], MON_DATA_SPECIES, &species);
+                    CalculateMonStats(&party[i]);
+                }
             }
         }
 
