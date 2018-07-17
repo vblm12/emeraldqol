@@ -217,39 +217,30 @@ RustboroCity_PokemonSchool_Text_2140F9: @ 82140F9
 RustboroCity_PokemonSchool_Text_21411A: @ 821411A
 	.string "If a POKéMON is poisoned, it will\n"
 	.string "steadily lose HP.\p"
-	.string "The effects of poison remain after\n"
-	.string "a battle.\p"
-	.string "A poisoned POKéMON’s HP will drop\n"
-	.string "while it is traveling.\p"
-	.string "Heal a poisoning using an ANTIDOTE.$"
+	.string "Heal a poisoning using a\n"
+	.string "PECHA BERRY.$"
 
 RustboroCity_PokemonSchool_Text_2141D8: @ 82141D8
 	.string "If a POKéMON becomes paralyzed,\n"
 	.string "its SPEED drops.\p"
 	.string "It may also not be able to move while\n"
 	.string "it is in battle.\p"
-	.string "Paralysis remains after battle.\n"
-	.string "Cure it using a PARLYZ HEAL.$"
+	.string "Cure it using a CHERI BERRY.$"
 
 RustboroCity_PokemonSchool_Text_21427D: @ 821427D
 	.string "If a POKéMON falls asleep, it will be\n"
-	.string "unable to attack.\p"
-	.string "A POKéMON may wake up on its own,\n"
-	.string "but if a battle ends while it is\l"
-	.string "sleeping, it will stay asleep.\p"
-	.string "Wake it up using an AWAKENING.$"
+	.string "unable to attack.\n"
+	.string "Wake it up using a CHESTO BERRY.$"
 
 RustboroCity_PokemonSchool_Text_214336: @ 8214336
 	.string "A burn reduces ATTACK power, and it\n"
 	.string "steadily reduces the victim’s HP.\p"
-	.string "A burn lingers after battle.\n"
-	.string "Cure a burn using a BURN HEAL.$"
+	.string "Cure a burn using a RAWST BERRY.$"
 
 RustboroCity_PokemonSchool_Text_2143B8: @ 82143B8
 	.string "If a POKéMON is frozen, it becomes\n"
 	.string "completely helpless.\p"
-	.string "It will remain frozen after battle.\n"
-	.string "Thaw it out using an ICE HEAL.$"
+	.string "Thaw it out using an ASPEAR BERRY.$"
 
 RustboroCity_PokemonSchool_Text_214433: @ 8214433
 	.string "Students who don’t study get a little\n"
@@ -276,9 +267,8 @@ RustboroCity_PokemonSchool_Text_2145CD: @ 82145CD
 	.string "I’m finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_214604: @ 8214604
-	.string "POKéMON can hold items, but they\n"
-	.string "don’t know what to do with man-made\l"
-	.string "items like POTION and ANTIDOTE.$"
+	.string "POKéMON can hold certain, items\n"
+	.string "to help them in battle!$"
 
 RustboroCity_PokemonSchool_Text_214669: @ 8214669
 	.string "You know how some POKéMON moves can\n"

@@ -1981,7 +1981,7 @@ void RestoreBagAfterWallyTutorial(void)
 void DoWallyTutorialBagMenu(void)
 {
     PrepareBagForWallyTutorial();
-    AddBagItem(ITEM_POTION, 1);
+    AddBagItem(ITEM_ORAN_BERRY, 1);
     AddBagItem(ITEM_POKE_BALL, 1);
     GoToBagMenu(10, 0, SetCB2ToReshowScreenAfterMenu2);
 }

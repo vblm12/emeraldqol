@@ -2160,7 +2160,7 @@ const struct Item gItems[] =
     {
         .name = _("CHERI BERRY"),
         .itemId = ITEM_CHERI_BERRY,
-        .price = 20,
+        .price = 200,
         .holdEffect = HOLD_EFFECT_CURE_PAR,
         .holdEffectParam = 0,
         .description = gCheriBerryItemDescription,
@@ -2176,7 +2176,7 @@ const struct Item gItems[] =
     {
         .name = _("CHESTO BERRY"),
         .itemId = ITEM_CHESTO_BERRY,
-        .price = 20,
+        .price = 250,
         .holdEffect = HOLD_EFFECT_CURE_SLP,
         .holdEffectParam = 0,
         .description = gChestoBerryItemDescription,
@@ -2192,7 +2192,7 @@ const struct Item gItems[] =
     {
         .name = _("PECHA BERRY"),
         .itemId = ITEM_PECHA_BERRY,
-        .price = 20,
+        .price = 100,
         .holdEffect = HOLD_EFFECT_CURE_PSN,
         .holdEffectParam = 0,
         .description = gPechaBerryItemDescription,
@@ -2208,7 +2208,7 @@ const struct Item gItems[] =
     {
         .name = _("RAWST BERRY"),
         .itemId = ITEM_RAWST_BERRY,
-        .price = 20,
+        .price = 250,
         .holdEffect = HOLD_EFFECT_CURE_BRN,
         .holdEffectParam = 0,
         .description = gRawstBerryItemDescription,
@@ -2224,7 +2224,7 @@ const struct Item gItems[] =
     {
         .name = _("ASPEAR BERRY"),
         .itemId = ITEM_ASPEAR_BERRY,
-        .price = 20,
+        .price = 250,
         .holdEffect = HOLD_EFFECT_CURE_FRZ,
         .holdEffectParam = 0,
         .description = gAspearBerryItemDescription,
@@ -2256,7 +2256,7 @@ const struct Item gItems[] =
     {
         .name = _("ORAN BERRY"),
         .itemId = ITEM_ORAN_BERRY,
-        .price = 20,
+        .price = 300,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 10,
         .description = gOranBerryItemDescription,
@@ -2304,7 +2304,7 @@ const struct Item gItems[] =
     {
         .name = _("SITRUS BERRY"),
         .itemId = ITEM_SITRUS_BERRY,
-        .price = 20,
+        .price = 700,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 30,
         .description = gSitrusBerryItemDescription,
@@ -2899,7 +2899,7 @@ const struct Item gItems[] =
     {
         .name = _("BRIGHTPOWDER"),
         .itemId = ITEM_BRIGHT_POWDER,
-        .price = 10,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_EVASION_UP,
         .holdEffectParam = 10,
         .description = gBrightPowderItemDescription,
@@ -2915,7 +2915,7 @@ const struct Item gItems[] =
     {
         .name = _("WHITE HERB"),
         .itemId = ITEM_WHITE_HERB,
-        .price = 100,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_RESTORE_STATS,
         .holdEffectParam = 0,
         .description = gWhiteHerbItemDescription,
@@ -2963,7 +2963,7 @@ const struct Item gItems[] =
     {
         .name = _("QUICK CLAW"),
         .itemId = ITEM_QUICK_CLAW,
-        .price = 100,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_QUICK_CLAW,
         .holdEffectParam = 20,
         .description = gQuickClawItemDescription,
@@ -2995,7 +2995,7 @@ const struct Item gItems[] =
     {
         .name = _("MENTAL HERB"),
         .itemId = ITEM_MENTAL_HERB,
-        .price = 100,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_CURE_ATTRACT,
         .holdEffectParam = 0,
         .description = gMentalHerbItemDescription,
@@ -3011,7 +3011,7 @@ const struct Item gItems[] =
     {
         .name = _("CHOICE BAND"),
         .itemId = ITEM_CHOICE_BAND,
-        .price = 100,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_CHOICE_BAND,
         .holdEffectParam = 0,
         .description = gChoiceBandItemDescription,
@@ -3171,7 +3171,7 @@ const struct Item gItems[] =
     {
         .name = _("FOCUS BAND"),
         .itemId = ITEM_FOCUS_BAND,
-        .price = 200,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_FOCUS_BAND,
         .holdEffectParam = 10,
         .description = gFocusBandItemDescription,
@@ -3203,7 +3203,7 @@ const struct Item gItems[] =
     {
         .name = _("SCOPE LENS"),
         .itemId = ITEM_SCOPE_LENS,
-        .price = 200,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_SCOPE_LENS,
         .holdEffectParam = 0,
         .description = gScopeLensItemDescription,
@@ -3235,7 +3235,7 @@ const struct Item gItems[] =
     {
         .name = _("LEFTOVERS"),
         .itemId = ITEM_LEFTOVERS,
-        .price = 200,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_LEFTOVERS,
         .holdEffectParam = 10,
         .description = gLeftoversItemDescription,
@@ -3539,7 +3539,7 @@ const struct Item gItems[] =
     {
         .name = _("SHELL BELL"),
         .itemId = ITEM_SHELL_BELL,
-        .price = 200,
+        .price = 5000,
         .holdEffect = HOLD_EFFECT_SHELL_BELL,
         .holdEffectParam = 8,
         .description = gShellBellItemDescription,

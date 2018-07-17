@@ -46,7 +46,7 @@ Route114_MapBGEvents: @ 852A118
 	bg_event 25, 38, 3, BG_EVENT_PLAYER_FACING_ANY, Route114_EventScript_1F2637
 	bg_hidden_item_event 20, 57, 3, ITEM_CARBOS, 4
 	bg_secret_base_event 32, 57, 0, SECRET_BASE_BROWN_CAVE4_3
-	bg_hidden_item_event 7, 30, 3, ITEM_REVIVE, 42
+	bg_hidden_item_event 7, 30, 3, ITEM_GREAT_BALL, 42
 
 Route114_MapEvents:: @ 852A1A8
 	map_events Route114_EventObjects, Route114_MapWarps, 0x0, Route114_MapBGEvents

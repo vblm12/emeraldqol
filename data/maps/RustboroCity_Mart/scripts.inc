@@ -20,15 +20,12 @@ RustboroCity_Mart_EventScript_214F21:: @ 8214F21
 
 RustboroCity_Mart_Pokemart_214F30: @ 8214F30
 	.2byte ITEM_POKE_BALL
-	.2byte ITEM_POTION
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_REPEL
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_NONE
 	release
 	end
@@ -44,15 +41,12 @@ RustboroCity_Mart_Pokemart_214F58: @ 8214F58
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_TIMER_BALL
 	.2byte ITEM_REPEAT_BALL
-	.2byte ITEM_POTION
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_REPEL
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_NONE
 	release
 	end
@@ -70,16 +64,16 @@ RustboroCity_Mart_EventScript_214F86:: @ 8214F86
 	end
 
 RustboroCity_Mart_Text_214F8F: @ 8214F8F
-	.string "I’m buying some PARLYZ HEALS and\n"
-	.string "ANTIDOTES.\p"
+	.string "I’m buying some CHERI and\n"
+	.string "PECHA BERRIES.\p"
 	.string "Just in case I run into SHROOMISH\n"
 	.string "in PETALBURG WOODS.$"
 
 RustboroCity_Mart_Text_214FF1: @ 8214FF1
 	.string "My POKéMON evolved.\n"
 	.string "It has a lot of HP now.\p"
-	.string "I should buy SUPER POTIONS for it\n"
-	.string "instead of ordinary POTIONS.$"
+	.string "I should buy a SITRIS BERRY for it\n"
+	.string "instead of ordinary BERRYS.$"
 
 RustboroCity_Mart_Text_21505C: @ 821505C
 	.string "I’m getting an ESCAPE ROPE just in\n"

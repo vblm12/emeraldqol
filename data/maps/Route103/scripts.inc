@@ -355,7 +355,7 @@ Route103_Text_1ECA79: @ 81ECA79
 
 Route103_Text_1ECB73: @ 81ECB73
 	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "I should have brought a BERRY…$"
 
 Route103_Text_1ECBB5: @ 81ECBB5
 	.string "If you cross the sea from here,\n"

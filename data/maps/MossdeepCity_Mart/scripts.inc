@@ -16,12 +16,9 @@ MossdeepCity_Mart_Pokemart_2223E0: @ 82223E0
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_NET_BALL
 	.2byte ITEM_DIVE_BALL
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_NONE
 	release
 	end
@@ -39,11 +36,9 @@ MossdeepCity_Mart_EventScript_222408:: @ 8222408
 	end
 
 MossdeepCity_Mart_Text_222411: @ 8222411
-	.string "REVIVE is fantastic!\p"
-	.string "Give it to a fainted POKéMON,\n"
-	.string "and the POKéMON will arise.\p"
-	.string "But be careful, REVIVE doesn’t restore\n"
-	.string "the used-up PP of moves.$"
+	.string "LUM BERRY is fantastic!\p"
+	.string "Give it to a POKéMON,\n"
+	.string "and the POKéMON heal any status condition!.$"
 
 MossdeepCity_Mart_Text_2224A0: @ 82224A0
 	.string "MAX REPEL keeps all weak POKéMON away.\p"

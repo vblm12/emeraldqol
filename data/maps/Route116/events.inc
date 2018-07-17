@@ -48,7 +48,7 @@ Route116_MapBGEvents: @ 852A790
 	bg_event 29, 10, 0, BG_EVENT_PLAYER_FACING_ANY, Route116_EventScript_1F2D7B
 	bg_secret_base_event 56, 6, 0, SECRET_BASE_BLUE_CAVE3_2
 	bg_secret_base_event 55, 15, 0, SECRET_BASE_BLUE_CAVE4_2
-	bg_hidden_item_event 22, 9, 3, ITEM_SUPER_POTION, 45
+	bg_hidden_item_event 22, 9, 3, ITEM_GREAT_BALL, 45
 	bg_hidden_item_event 70, 13, 3, ITEM_BLACK_GLASSES, 96
 
 Route116_MapEvents:: @ 852A814

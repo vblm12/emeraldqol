@@ -53,11 +53,11 @@ Route104_MapBGEvents: @ 8528664
 	bg_event 23, 5, 0, BG_EVENT_PLAYER_FACING_ANY, Route104_EventScript_1ED02A
 	bg_event 7, 20, 0, BG_EVENT_PLAYER_FACING_ANY, Route104_EventScript_1ED033
 	bg_event 17, 23, 3, BG_EVENT_PLAYER_FACING_ANY, Route104_EventScript_1ED03C
-	bg_hidden_item_event 7, 6, 3, ITEM_SUPER_POTION, 44
+	bg_hidden_item_event 7, 6, 3, ITEM_GREAT_BALL, 44
 	bg_hidden_item_event 3, 9, 3, ITEM_POKE_BALL, 62
-	bg_hidden_item_event 14, 55, 3, ITEM_POTION, 37
-	bg_hidden_item_event 16, 72, 3, ITEM_ANTIDOTE, 85
-	bg_hidden_item_event 16, 64, 3, ITEM_HEART_SCALE, 88
+	bg_hidden_item_event 14, 55, 3, ITEM_POKE_BALL, 37
+	bg_hidden_item_event 16, 72, 3, ITEM_GREAT_BALL, 85
+	bg_hidden_item_event 16, 64, 3, ITEM_PP_MAX, 88
 
 Route104_MapEvents:: @ 85286DC
 	map_events Route104_EventObjects, Route104_MapWarps, Route104_MapCoordEvents, Route104_MapBGEvents

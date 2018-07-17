@@ -48,7 +48,7 @@ Route121_MapBGEvents: @ 852BD14
 	bg_hidden_item_event 23, 10, 3, ITEM_HP_UP, 39
 	bg_hidden_item_event 58, 3, 3, ITEM_NUGGET, 40
 	bg_hidden_item_event 72, 5, 3, ITEM_FULL_HEAL, 73
-	bg_hidden_item_event 68, 8, 3, ITEM_MAX_REVIVE, 100
+	bg_hidden_item_event 68, 8, 3, ITEM_ULTRA_BALL, 100
 
 Route121_MapEvents:: @ 852BD8C
 	map_events Route121_EventObjects, Route121_MapWarps, Route121_MapCoordEvents, Route121_MapBGEvents

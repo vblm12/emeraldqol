@@ -78,8 +78,8 @@ Route123_MapBGEvents: @ 852C32C
 	bg_hidden_item_event 75, 1, 3, ITEM_SUPER_REPEL, 7
 	bg_event 20, 7, 3, BG_EVENT_PLAYER_FACING_ANY, Route123_EventScript_1F61BC
 	bg_secret_base_event 57, 5, 0, SECRET_BASE_BLUE_CAVE1_3
-	bg_hidden_item_event 12, 1, 3, ITEM_REVIVE, 41
-	bg_hidden_item_event 91, 15, 3, ITEM_HYPER_POTION, 74
+	bg_hidden_item_event 12, 1, 3, ITEM_ULTRA_BALL, 41
+	bg_hidden_item_event 91, 15, 3, ITEM_ULTRA_BALL, 74
 	bg_hidden_item_event 139, 15, 3, ITEM_PP_UP, 99
 	bg_hidden_item_event 138, 18, 3, ITEM_RARE_CANDY, 110
 

@@ -38,7 +38,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_227286:: @ 8227286
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_227290:: @ 8227290
 	msgbox SootopolisCity_LotadAndSeedotHouse_Text_227480, 4
-	giveitem_std ITEM_ELIXIR
+	giveitem_std ITEM_PP_UP
 	compare VAR_RESULT, 0
 	goto_eq SootopolisCity_LotadAndSeedotHouse_EventScript_2272B2
 	closemessage
@@ -87,7 +87,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_227317:: @ 8227317
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_227321:: @ 8227321
 	msgbox SootopolisCity_LotadAndSeedotHouse_Text_22776C, 4
-	giveitem_std ITEM_ELIXIR
+	giveitem_std ITEM_PP_UP
 	compare VAR_RESULT, 0
 	goto_eq SootopolisCity_LotadAndSeedotHouse_EventScript_227343
 	closemessage

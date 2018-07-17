@@ -59,12 +59,11 @@ Route104_PrettyPetalFlowerShop_EventScript_22A3E4:: @ 822A3E4
 
 	.align 2
 Route104_PrettyPetalFlowerShop_Pokemart_22A3FC: @ 822A3FC
-	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_NONE
 	release
 	end

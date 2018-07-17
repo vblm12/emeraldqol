@@ -34,13 +34,15 @@ LilycoveCity_DepartmentStore_3F_EventScript_21FC8C:: @ 821FC8C
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_21FCA4: @ 821FCA4
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SPECIAL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_MENTAL_HERB
+	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_WHITE_HERB
+	.2byte ITEM_SHELL_BELL
+	.2byte ITEM_SCOPE_LENS
+	.2byte ITEM_QUICK_CLAW
+	.2byte ITEM_FOCUS_BAND
+	.2byte ITEM_BRIGHT_POWDER
 	.2byte ITEM_NONE
 	release
 	end

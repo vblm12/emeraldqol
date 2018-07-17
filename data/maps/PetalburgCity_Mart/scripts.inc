@@ -16,15 +16,12 @@ PetalburgCity_Mart_EventScript_207D69:: @ 8207D69
 	.align 2
 PetalburgCity_Mart_Pokemart_207D8C: @ 8207D8C
 	.2byte ITEM_POKE_BALL
-	.2byte ITEM_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_CHESTO_BERRY
 	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_REPEL
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_ORANGE_MAIL
 	.2byte ITEM_NONE
 	release
@@ -40,16 +37,12 @@ PetalburgCity_Mart_EventScript_207DA6:: @ 8207DA6
 PetalburgCity_Mart_Pokemart_207DB8: @ 8207DB8
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_POTION
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_CHESTO_BERRY
 	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_REPEL
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_ORANGE_MAIL
 	.2byte ITEM_NONE
 	release
@@ -79,9 +72,9 @@ PetalburgCity_Mart_Text_207E60: @ 8207E60
 	.string "useful when you’re in a hurry.$"
 
 PetalburgCity_Mart_Text_207EB0: @ 8207EB0
-	.string "Do you have any ANTIDOTES with\n"
+	.string "Do you have any PECHA BERRIES with\n"
 	.string "you?\p"
-	.string "If you walk around with a poisoned\n"
-	.string "POKéMON, it will lose HP until it faints.\l"
-	.string "Take some ANTIDOTES with you.$"
+	.string "A poisoned POKéMON, will lose HP\n"
+	.string "until it faints.\l"
+	.string "Take some PECHA BERRIES with you.$"
 

@@ -68,10 +68,10 @@ Route110_MapBGEvents: @ 8529110
 	bg_event 37, 70, 3, BG_EVENT_PLAYER_FACING_ANY, Route110_EventScript_1EF380
 	bg_event 8, 67, 0, BG_EVENT_PLAYER_FACING_ANY, Route110_EventScript_1EF389
 	bg_event 32, 93, 0, BG_EVENT_PLAYER_FACING_ANY, Route110_EventScript_1EF392
-	bg_hidden_item_event 35, 39, 3, ITEM_REVIVE, 54
+	bg_hidden_item_event 35, 39, 3, ITEM_GREAT_BALL, 54
 	bg_hidden_item_event 33, 45, 3, ITEM_GREAT_BALL, 53
 	bg_hidden_item_event 4, 35, 3, ITEM_POKE_BALL, 65
-	bg_hidden_item_event 37, 67, 3, ITEM_FULL_HEAL, 55
+	bg_hidden_item_event 37, 67, 3, ITEM_PP_UP, 55
 	bg_event 13, 16, 0, BG_EVENT_PLAYER_FACING_ANY, Route110_EventScript_1EF34A
 
 Route110_MapEvents:: @ 85291DC

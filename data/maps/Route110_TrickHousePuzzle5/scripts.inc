@@ -1037,17 +1037,18 @@ Route110_TrickHousePuzzle5_Text_26DA1E: @ 826DA1E
 Route110_TrickHousePuzzle5_Text_26DA64: @ 826DA64
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "Three HARBOR MAILS or one RAWST BERRY?$"
 
 Route110_TrickHousePuzzle5_Text_26DAAD: @ 826DAAD
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "one ORAN BERRY.\n"
+	.string "How much money remains?$"
 
 Route110_TrickHousePuzzle5_Text_26DAFF: @ 826DAFF
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "more than one SITRUS BERRY?$"
 
 Route110_TrickHousePuzzle5_Text_26DB4C: @ 826DB4C
 	.string "CLICKETY-CLACK…\n"

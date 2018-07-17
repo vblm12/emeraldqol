@@ -13,13 +13,10 @@ SootopolisCity_Mart_EventScript_226795:: @ 8226795
 
 SootopolisCity_Mart_Pokemart_2267AC: @ 82267AC
 	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
 	.2byte ITEM_SHADOW_MAIL
 	.2byte ITEM_NONE
 	release

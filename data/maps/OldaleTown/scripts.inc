@@ -75,7 +75,7 @@ OldaleTown_EventScript_1E8F75:: @ 81E8F75
 
 OldaleTown_EventScript_1E8F8C:: @ 81E8F8C
 	msgbox OldaleTown_Text_1E91FD, 4
-	giveitem_std ITEM_POTION
+	giveitem_std ITEM_ORAN_BERRY
 	compare VAR_RESULT, 0
 	goto_eq OldaleTown_EventScript_1E8FC3
 	msgbox OldaleTown_Text_1E92AF, 4
@@ -368,7 +368,7 @@ OldaleTown_Text_1E91FD: @ 81E91FD
 	.string "a promotional item.$"
 
 OldaleTown_Text_1E92AF: @ 81E92AF
-	.string "A POTION can be used anytime, so it’s\n"
+	.string "A BERRY can be used anytime, so it’s\n"
 	.string "even more useful than a POKéMON CENTER\l"
 	.string "in certain situations.$"
 

@@ -14,11 +14,8 @@ BattleFrontier_Mart_EventScript_267ACC:: @ 8267ACC
 	.align 2
 BattleFrontier_Mart_Pokemart_267AE4: @ 8267AE4
 	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_PROTEIN
 	.2byte ITEM_CALCIUM

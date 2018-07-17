@@ -1,9 +1,9 @@
 Route102_EventScript_290CD8:: @ 8290CD8
-	giveitem_std ITEM_POTION, 1, 1
+	giveitem_std ITEM_POKE_BALL, 1, 1
 	end
 
 Route103_EventScript_290CE5:: @ 8290CE5
-	giveitem_std ITEM_GUARD_SPEC, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route103_EventScript_290CF2:: @ 8290CF2
@@ -19,11 +19,11 @@ Route104_EventScript_290D0C:: @ 8290D0C
 	end
 
 Route104_EventScript_290D19:: @ 8290D19
-	giveitem_std ITEM_X_ACCURACY, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route104_EventScript_290D26:: @ 8290D26
-	giveitem_std ITEM_POTION, 1, 1
+	giveitem_std ITEM_POKE_BALL, 1, 1
 	end
 
 Route105_EventScript_290D33:: @ 8290D33
@@ -43,7 +43,7 @@ Route109_EventScript_290D5A:: @ 8290D5A
 	end
 
 Route109_EventScript_290D67:: @ 8290D67
-	giveitem_std ITEM_POTION, 1, 1
+	giveitem_std ITEM_POKE_BALL, 1, 1
 	end
 
 Route110_EventScript_290D74:: @ 8290D74
@@ -51,7 +51,7 @@ Route110_EventScript_290D74:: @ 8290D74
 	end
 
 Route110_EventScript_290D81:: @ 8290D81
-	giveitem_std ITEM_DIRE_HIT, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route110_EventScript_290D8E:: @ 8290D8E
@@ -79,7 +79,7 @@ Route112_EventScript_290DCF:: @ 8290DCF
 	end
 
 Route113_EventScript_290DDC:: @ 8290DDC
-	giveitem_std ITEM_MAX_ETHER, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route113_EventScript_290DE9:: @ 8290DE9
@@ -87,7 +87,7 @@ Route113_EventScript_290DE9:: @ 8290DE9
 	end
 
 Route113_EventScript_290DF6:: @ 8290DF6
-	giveitem_std ITEM_HYPER_POTION, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 Route114_EventScript_290E03:: @ 8290E03
@@ -103,7 +103,7 @@ Route114_EventScript_290E1D:: @ 8290E1D
 	end
 
 Route115_EventScript_290E2A:: @ 8290E2A
-	giveitem_std ITEM_SUPER_POTION, 1, 1
+	giveitem_std ITEM_GREAT_BALL, 1, 1
 	end
 
 Route115_EventScript_290E37:: @ 8290E37
@@ -127,7 +127,7 @@ Route115_EventScript_290E6B:: @ 8290E6B
 	end
 
 Route116_EventScript_290E78:: @ 8290E78
-	giveitem_std ITEM_X_SPECIAL, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route116_EventScript_290E85:: @ 8290E85
@@ -143,7 +143,7 @@ Route116_EventScript_290E9F:: @ 8290E9F
 	end
 
 Route116_EventScript_290EAC:: @ 8290EAC
-	giveitem_std ITEM_POTION, 1, 1
+	giveitem_std ITEM_POKE_BALL, 1, 1
 	end
 
 Route117_EventScript_290EB9:: @ 8290EB9
@@ -151,11 +151,11 @@ Route117_EventScript_290EB9:: @ 8290EB9
 	end
 
 Route117_EventScript_290EC6:: @ 8290EC6
-	giveitem_std ITEM_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route118_EventScript_290ED3:: @ 8290ED3
-	giveitem_std ITEM_HYPER_POTION, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 Route119_EventScript_290EE0:: @ 8290EE0
@@ -179,11 +179,11 @@ Route119_EventScript_290F14:: @ 8290F14
 	end
 
 Route119_EventScript_290F21:: @ 8290F21
-	giveitem_std ITEM_HYPER_POTION, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 Route119_EventScript_290F2E:: @ 8290F2E
-	giveitem_std ITEM_HYPER_POTION, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 Route119_EventScript_290F3B:: @ 8290F3B
@@ -195,11 +195,11 @@ Route120_EventScript_290F48:: @ 8290F48
 	end
 
 Route120_EventScript_290F55:: @ 8290F55
-	giveitem_std ITEM_FULL_HEAL, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route120_EventScript_290F62:: @ 8290F62
-	giveitem_std ITEM_HYPER_POTION, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 Route120_EventScript_290F6F:: @ 8290F6F
@@ -207,7 +207,7 @@ Route120_EventScript_290F6F:: @ 8290F6F
 	end
 
 Route120_EventScript_290F7C:: @ 8290F7C
-	giveitem_std ITEM_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route121_EventScript_290F89:: @ 8290F89
@@ -215,7 +215,7 @@ Route121_EventScript_290F89:: @ 8290F89
 	end
 
 Route121_EventScript_290F96:: @ 8290F96
-	giveitem_std ITEM_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route121_EventScript_290FA3:: @ 8290FA3
@@ -291,7 +291,7 @@ Route133_EventScript_291080:: @ 8291080
 	end
 
 Route133_EventScript_29108D:: @ 829108D
-	giveitem_std ITEM_MAX_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route134_EventScript_29109A:: @ 829109A
@@ -303,7 +303,7 @@ Route134_EventScript_2910A7:: @ 82910A7
 	end
 
 PetalburgCity_EventScript_2910B4:: @ 82910B4
-	giveitem_std ITEM_MAX_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 PetalburgCity_EventScript_2910C1:: @ 82910C1
@@ -311,11 +311,11 @@ PetalburgCity_EventScript_2910C1:: @ 82910C1
 	end
 
 MauvilleCity_EventScript_2910CE:: @ 82910CE
-	giveitem_std ITEM_X_SPEED, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 RustboroCity_EventScript_2910DB:: @ 82910DB
-	giveitem_std ITEM_X_DEFEND, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 LilycoveCity_EventScript_2910E8:: @ 82910E8
@@ -327,7 +327,7 @@ MossdeepCity_EventScript_2910F5:: @ 82910F5
 	end
 
 PetalburgWoods_EventScript_291102:: @ 8291102
-	giveitem_std ITEM_X_ATTACK, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 PetalburgWoods_EventScript_29110F:: @ 829110F
@@ -339,7 +339,7 @@ PetalburgWoods_EventScript_29111C:: @ 829111C
 	end
 
 PetalburgWoods_EventScript_291129:: @ 8291129
-	giveitem_std ITEM_PARALYZE_HEAL, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 RusturfTunnel_EventScript_291136:: @ 8291136
@@ -347,7 +347,7 @@ RusturfTunnel_EventScript_291136:: @ 8291136
 	end
 
 RusturfTunnel_EventScript_291143:: @ 8291143
-	giveitem_std ITEM_MAX_ETHER, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 GraniteCave_1F_EventScript_291150:: @ 8291150
@@ -367,7 +367,7 @@ GraniteCave_B2F_EventScript_291177:: @ 8291177
 	end
 
 JaggedPass_EventScript_291184:: @ 8291184
-	giveitem_std ITEM_BURN_HEAL, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 FieryPath_EventScript_291191:: @ 8291191
@@ -383,7 +383,7 @@ MeteorFalls_1F_1R_EventScript_2911AB:: @ 82911AB
 	end
 
 MeteorFalls_1F_1R_EventScript_2911B8:: @ 82911B8
-	giveitem_std ITEM_FULL_HEAL, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 MeteorFalls_1F_1R_EventScript_2911C5:: @ 82911C5
@@ -411,11 +411,11 @@ NewMauville_Inside_EventScript_291206:: @ 8291206
 	end
 
 NewMauville_Inside_EventScript_291213:: @ 8291213
-	giveitem_std ITEM_FULL_HEAL, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 NewMauville_Inside_EventScript_291220:: @ 8291220
-	giveitem_std ITEM_PARALYZE_HEAL, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 AbandonedShip_Rooms_1F_EventScript_29122D:: @ 829122D
@@ -435,7 +435,7 @@ AbandonedShip_Room_B1F_EventScript_291254:: @ 8291254
 	end
 
 AbandonedShip_Rooms2_1F_EventScript_291261:: @ 8291261
-	giveitem_std ITEM_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 AbandonedShip_CaptainsOffice_EventScript_29126E:: @ 829126E
@@ -471,7 +471,7 @@ SafariZone_North_EventScript_2912C9:: @ 82912C9
 	end
 
 SafariZone_Southwest_EventScript_2912D6:: @ 82912D6
-	giveitem_std ITEM_MAX_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 SafariZone_Northeast_EventScript_2912E3:: @ 82912E3
@@ -503,7 +503,7 @@ MtPyre_6F_EventScript_291331:: @ 8291331
 	end
 
 MtPyre_Exterior_EventScript_29133E:: @ 829133E
-	giveitem_std ITEM_MAX_POTION, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 MtPyre_Exterior_EventScript_29134B:: @ 829134B
@@ -519,7 +519,7 @@ AquaHideout_B1F_EventScript_291365:: @ 8291365
 	end
 
 AquaHideout_B1F_EventScript_291372:: @ 8291372
-	giveitem_std ITEM_MAX_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 AquaHideout_B2F_EventScript_29137F:: @ 829137F
@@ -535,7 +535,7 @@ Route119_EventScript_291399:: @ 8291399
 	end
 
 Route119_EventScript_2913A6:: @ 82913A6
-	giveitem_std ITEM_MAX_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 Route119_EventScript_2913B3:: @ 82913B3
@@ -551,7 +551,7 @@ ShoalCave_LowTideInnerRoom_EventScript_2913CD:: @ 82913CD
 	end
 
 ShoalCave_LowTideStairsRoom_EventScript_2913DA:: @ 82913DA
-	giveitem_std ITEM_ICE_HEAL, 1, 1
+	giveitem_std ITEM_GREAT_BALL, 1, 1
 	end
 
 ShoalCave_LowTideIceRoom_EventScript_2913E7:: @ 82913E7
@@ -603,7 +603,7 @@ Route110_TrickHousePuzzle8_EventScript_291476:: @ 8291476
 	end
 
 VictoryRoad_1F_EventScript_291483:: @ 8291483
-	giveitem_std ITEM_MAX_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 VictoryRoad_1F_EventScript_291490:: @ 8291490
@@ -615,11 +615,11 @@ VictoryRoad_B1F_EventScript_29149D:: @ 829149D
 	end
 
 VictoryRoad_B1F_EventScript_2914AA:: @ 82914AA
-	giveitem_std ITEM_FULL_RESTORE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 VictoryRoad_B2F_EventScript_2914B7:: @ 82914B7
-	giveitem_std ITEM_FULL_HEAL, 1, 1
+	giveitem_std ITEM_ULTRA_BALL, 1, 1
 	end
 
 ArtisanCave_B1F_EventScript_2914C4:: @ 82914C4
@@ -635,11 +635,11 @@ MagmaHideout_1F_EventScript_2914DE:: @ 82914DE
 	end
 
 MagmaHideout_2F_2R_EventScript_2914EB:: @ 82914EB
-	giveitem_std ITEM_MAX_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 MagmaHideout_2F_2R_EventScript_2914F8:: @ 82914F8
-	giveitem_std ITEM_FULL_RESTORE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 MagmaHideout_3F_1R_EventScript_291505:: @ 8291505
@@ -651,7 +651,7 @@ MagmaHideout_3F_2R_EventScript_291512:: @ 8291512
 	end
 
 MagmaHideout_4F_EventScript_29151F:: @ 829151F
-	giveitem_std ITEM_MAX_REVIVE, 1, 1
+	giveitem_std ITEM_PP_MAX, 1, 1
 	end
 
 MagmaHideout_3F_3R_EventScript_29152C:: @ 829152C

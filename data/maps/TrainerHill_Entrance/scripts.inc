@@ -275,17 +275,10 @@ TrainerHill_Entrance_EventScript_2683C7:: @ 82683C7
 
 	.align 2
 TrainerHill_Entrance_Pokemart_2683E8: @ 82683E8
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SPECIAL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_CHESTO_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -298,18 +291,9 @@ TrainerHill_Entrance_EventScript_268402:: @ 8268402
 
 	.align 2
 TrainerHill_Entrance_Pokemart_268414: @ 8268414
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SPECIAL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFEND
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_PP_UP
 	.2byte ITEM_NONE
 	release
 	end

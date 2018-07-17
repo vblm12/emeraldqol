@@ -25,9 +25,6 @@ LilycoveCity_DepartmentStore_5F_EventScript_21FFA6:: @ 821FFA6
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_21FFC0: @ 821FFC0
-	.2byte ITEM_X_DEFEND
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_ACCURACY
 	.2byte ITEM_SUPER_REPEL
 	.2byte 91
 	.2byte 92

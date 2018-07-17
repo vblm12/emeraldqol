@@ -14,14 +14,12 @@ LavaridgeTown_Mart_EventScript_1FF9CE:: @ 81FF9CE
 	.align 2
 LavaridgeTown_Mart_Pokemart_1FF9E8: @ 81FF9E8
 	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_BURN_HEAL
-	.2byte ITEM_REVIVE
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_RAWST_BERRY
 	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_X_SPEED
 	.2byte ITEM_NONE
 	release
 	end

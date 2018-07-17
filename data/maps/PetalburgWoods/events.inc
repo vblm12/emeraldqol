@@ -27,7 +27,7 @@ PetalburgWoods_MapCoordEvents: @ 853474C
 
 PetalburgWoods_MapBGEvents: @ 853476C
 	bg_event 14, 32, 3, BG_EVENT_PLAYER_FACING_ANY, PetalburgWoods_EventScript_22E25B
-	bg_hidden_item_event 39, 35, 3, ITEM_POTION, 58
+	bg_hidden_item_event 39, 35, 3, ITEM_POKE_BALL, 58
 	bg_hidden_item_event 26, 6, 3, ITEM_TINY_MUSHROOM, 59
 	bg_hidden_item_event 40, 29, 3, ITEM_TINY_MUSHROOM, 60
 	bg_hidden_item_event 4, 19, 3, ITEM_POKE_BALL, 61
