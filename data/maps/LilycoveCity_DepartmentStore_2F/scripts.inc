@@ -53,8 +53,6 @@ LilycoveCity_DepartmentStore_2F_EventScript_21FB7A:: @ 821FB7A
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart_21FB94: @ 821FB94
 	.2byte ITEM_ORAN_BERRY
-	.2byte ITEM_ORAN_BERRY
-	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_REPEL
 	.2byte ITEM_SUPER_REPEL

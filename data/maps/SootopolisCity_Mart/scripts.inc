@@ -14,7 +14,6 @@ SootopolisCity_Mart_EventScript_226795:: @ 8226795
 SootopolisCity_Mart_Pokemart_2267AC: @ 82267AC
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_SITRUS_BERRY
-	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_SHADOW_MAIL
