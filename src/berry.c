@@ -961,23 +961,14 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
     {
     case 0:
         return FALSE;
+    case 4:
+        tree->berryYield = CalcBerryYield(tree);
     case 1:
     case 2:
     case 3:
         tree->stage++;
         break;
-    case 4:
-        tree->berryYield = CalcBerryYield(tree);
-        break;
     case 5:
-        tree->watered1 = 0;
-        tree->watered2 = 0;
-        tree->watered3 = 0;
-        tree->watered4 = 0;
-        tree->berryYield = 0;
-        tree->stage = 2;
-        if (++tree->regrowthCount == 10)
-            *tree = gBlankBerryTree;
         break;
     }
     return TRUE;
@@ -986,7 +977,6 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
 void BerryTreeTimeUpdate(s32 minutes)
 {
     int i;
-    s32 time = minutes;
     struct BerryTree *tree;
 
     for (i = 0; i < BERRY_TREES_COUNT; i++)
@@ -995,20 +985,29 @@ void BerryTreeTimeUpdate(s32 minutes)
 
         if (tree->berry && tree->stage && !tree->growthSparkle)
         {
-
-            while (time != 0)
+            if (minutes >= GetStageDurationByBerryType(tree->berry) * 71)
             {
-                if (tree->minutesUntilNextStage > time)
+                tree->stage = 5;
+                tree->berryYield = CalcBerryYield(tree);
+            }
+            else
+            {
+                s32 time = minutes;
+
+                while (time != 0)
                 {
-                    tree->minutesUntilNextStage -= time;
-                    break;
+                    if (tree->minutesUntilNextStage > time)
+                    {
+                        tree->minutesUntilNextStage -= time;
+                        break;
+                    }
+                    time -= tree->minutesUntilNextStage;
+                    tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry);
+                    if (!BerryTreeGrow(tree))
+                        break;
+                    if (tree->stage == 5)
+                        tree->minutesUntilNextStage *= 4;
                 }
-                time -= tree->minutesUntilNextStage;
-                tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry);
-                if (!BerryTreeGrow(tree))
-                    break;
-                if (tree->stage == 5)
-                    tree->minutesUntilNextStage *= 4;
             }
         }
     }
@@ -1128,7 +1127,7 @@ u8 GetBerryCountByBerryTreeId(u8 id)
 
 u16 GetStageDurationByBerryType(u8 berry)
 {
-    return GetBerryInfo(berry)->stageDuration * 10;
+    return GetBerryInfo(berry)->stageDuration * 6;
 }
 
 void EventObjectInteractionGetBerryTreeData(void)
