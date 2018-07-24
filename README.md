@@ -12,13 +12,21 @@ Current changes include:
 * Running allowed anywhere.
 * Make TMs re-usable.
 * Allow HMs to be forgotten when learning new moves.
-* The RNG is either fixed or even more broken, testing needed
+* The RNG seed is set to a different value every boot.
 * The player's party is completely healed before and after every battle.
 * Bag items are not usable in trainer battles, either by the AI or the player.
 * The move tutor has graciously decided to work for free.
 * Trainer's underlevel Pokémon will level up with the player's highest level Pokémon.
 * Try to make all trainers use the best AI packages.
 * The number to subtract from egg cycles per step should be quadrupled.
+* Try to make trainers suck less by giving them all better AI packages.
+* Reduce the amount of time for berries to grow to 1/10th the original time.
+* Reduce the penalty for losing to 1.3 times the player's money to encourage risk-taking, and compensate for a harder early game.
+* Evolve some trainer Pokémon that have been leveled up.
+* EV increasing items work until EVs for that stat reach 252 (or the max 510)
+* The annoying low-hp beep is removed.
+* Potions are useless in this hack. They have been replaced in stores with berries, and other items elsewhere. Dialog has been modified to reflect this change.
+* The defaults for new games have changed. Text speed defaults to fast, sound defaults to stereo, and battle-style defaults to set.
 
 Please do file issues to report bugs or suggest improvements.
 
