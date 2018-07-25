@@ -2733,46 +2733,45 @@ _0808BDFC:
 	thumb_func_start PartyHasMonWithSurf
 @ bool8 PartyHasMonWithSurf()
 PartyHasMonWithSurf: @ 808BE00
-	push {r4,r5,lr}
-	movs r0, 0x8
-	bl TestPlayerAvatarFlags
-	lsls r0, 24
-	cmp r0, 0
-	bne _0808BE44
-	movs r5, 0
-	b _0808BE2A
-_0808BE12:
-	adds r0, r4, 0
-	movs r1, 0x39
-	bl pokemon_has_move
-	lsls r0, 24
-	cmp r0, 0
-	beq _0808BE24
-	movs r0, 0x1
-	b _0808BE46
-_0808BE24:
-	adds r0, r5, 0x1
-	lsls r0, 24
-	lsrs r5, r0, 24
-_0808BE2A:
-	cmp r5, 0x5
-	bhi _0808BE44
-	movs r0, 0x64
-	adds r1, r5, 0
-	muls r1, r0
-	ldr r0, =gPlayerParty
-	adds r4, r1, r0
-	adds r0, r4, 0
-	movs r1, 0xB
-	bl GetMonData
-	cmp r0, 0
-	bne _0808BE12
-_0808BE44:
-	movs r0, 0
-_0808BE46:
-	pop {r4,r5}
-	pop {r1}
-	bx r1
+	push	{r4, lr}
+	movs	r0, #0x8
+	bl	TestPlayerAvatarFlags
+	lsls	r0, r0, #0x18
+	cmp	r0, #0
+	bne	.L2627	@cond_branch
+	movs	r4, #0x0
+	b	.L2628
+.L2632:
+	movs	r1, #0x39
+	bl	CanSpeciesLearnMove
+	cmp	r0, #0
+	beq	.L2630	@cond_branch
+	movs	r0, #0x1
+	b	.L2635
+.L2630:
+	adds	r0, r4, #0x1
+	lsls	r0, r0, #0x18
+	lsrs	r4, r0, #0x18
+.L2628:
+	cmp	r4, #0x5
+	bhi	.L2627	@cond_branch
+	movs	r0, #0x64
+	muls	r0, r0, r4
+	ldr	r1, =gPlayerParty
+	adds	r0, r0, r1
+	movs	r1, #0xb
+	movs	r2, #0x0
+	bl	GetMonData
+	lsls	r0, r0, #0x10
+	lsrs	r0, r0, #0x10
+	cmp	r0, #0
+	bne	.L2632	@cond_branch
+.L2627:
+	movs	r0, #0x0
+.L2635:
+	pop	{r4}
+	pop	{r1}
+	bx	r1
 	.pool
 	thumb_func_end PartyHasMonWithSurf
 

@@ -12790,7 +12790,7 @@ ItemIdToBattleMoveId: @ 81B6CFC
 	lsls r0, 16
 	ldr r1, =0xfedf0000
 	adds r0, r1
-	ldr r1, =gUnknown_08616040
+	ldr r1, =TMHMMoves
 	lsrs r0, 15
 	adds r0, r1
 	ldrh r0, [r0]
@@ -12804,7 +12804,7 @@ sub_81B6D14: @ 81B6D14
 	lsls r0, 16
 	lsrs r2, r0, 16
 	movs r1, 0
-	ldr r3, =gUnknown_08616040
+	ldr r3, =TMHMMoves
 _081B6D1E:
 	adds r0, r1, 0
 	adds r0, 0x32

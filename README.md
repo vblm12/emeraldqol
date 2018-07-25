@@ -16,7 +16,7 @@ Current changes include:
 * The player's party is completely healed before and after every battle.
 * Bag items are not usable in trainer battles, either by the AI or the player.
 * The move tutor has graciously decided to work for free.
-* Trainer's underlevel Pokémon will level up with the player's highest level Pokémon.
+* Trainer's under-level Pokémon will level up with the player's highest level Pokémon.
 * Try to make all trainers use the best AI packages.
 * The number to subtract from egg cycles per step should be quadrupled.
 * Try to make trainers suck less by giving them all better AI packages.
@@ -27,6 +27,7 @@ Current changes include:
 * The annoying low-hp beep is removed.
 * Potions are useless in this hack. They have been replaced in stores with berries, and other items elsewhere. Dialog has been modified to reflect this change.
 * The defaults for new games have changed. Text speed defaults to fast, sound defaults to stereo, and battle-style defaults to set.
+* The checkpartymove script now checks if the player has a Pokémon that CAN learn a move. This will hopefully mitigate the frustration of having to teach your Pokémon useless moves, while keeping the aspect of having your Pokémon help you on your journey. This only works for moves that can be used with a shortcut on the overworld. Fly and Flash will still need work, pending the decompilation of party_menu.s.
 
 Please do file issues to report bugs or suggest improvements.
 

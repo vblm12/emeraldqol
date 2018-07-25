@@ -574,6 +574,7 @@ u32 CanSpeciesLearnTMHM(u16 species, u8 tm);
 u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves);
 u8 GetLevelUpMovesBySpecies(u16 species, u16 *moves);
 u8 GetNumberOfRelearnableMoves(struct Pokemon *mon);
+bool32 CanSpeciesLearnMove(u16 species, u16 move);
 u16 SpeciesToPokedexNum(u16 species);
 bool32 sub_806E3F8(u16 species);
 void ClearBattleMonForms(void);

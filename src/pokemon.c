@@ -72,6 +72,7 @@ extern const struct UnknownPokemonStruct3 gUnknown_08610970[];
 extern const struct CompressedSpritePalette gMonPaletteTable[];
 extern const struct CompressedSpritePalette gMonShinyPaletteTable[];
 extern const u8 gTrainerClassNames[][13];
+extern const u16 TMHMMoves[58];
 
 extern u8 pokemon_order_func(u8);
 extern u16 get_unknown_box_id(void);
@@ -5331,6 +5332,25 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
     }
 
     return numMoves;
+}
+
+bool32 CanSpeciesLearnMove(u16 species, u16 move)
+{
+    u8 i;
+    u16 moves[20];
+    u8 numMoves;
+    for (i = 0; i < 58; i++)
+    {
+        if (move == TMHMMoves[i])
+            return CanSpeciesLearnTMHM(species, i);
+    }
+    numMoves = GetLevelUpMovesBySpecies(species, moves);
+    for (i = 0; i < numMoves; i++)
+    {
+        if (moves[i] == move)
+            return TRUE;
+    }
+    return FALSE;
 }
 
 u16 SpeciesToPokedexNum(u16 species)
