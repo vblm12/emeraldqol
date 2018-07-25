@@ -16,7 +16,7 @@ MtPyre_Exterior_MapCoordEvents: @ 8535124
 
 MtPyre_Exterior_MapBGEvents: @ 8535174
 	bg_hidden_item_event 9, 8, 0, ITEM_ULTRA_BALL, 29
-	bg_hidden_item_event 16, 22, 0, ITEM_MAX_ETHER, 78
+	bg_hidden_item_event 16, 22, 0, ITEM_PP_MAX, 78
 
 MtPyre_Exterior_MapEvents:: @ 853518C
 	map_events MtPyre_Exterior_EventObjects, MtPyre_Exterior_MapWarps, MtPyre_Exterior_MapCoordEvents, MtPyre_Exterior_MapBGEvents

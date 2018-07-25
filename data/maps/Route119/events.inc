@@ -91,7 +91,7 @@ Route119_MapBGEvents: @ 852B2F4
 	bg_secret_base_event 4, 15, 0, SECRET_BASE_SHRUB3_3
 	bg_secret_base_event 6, 2, 0, SECRET_BASE_SHRUB4_3
 	bg_hidden_item_event 26, 120, 3, ITEM_FULL_HEAL, 68
-	bg_hidden_item_event 20, 29, 3, ITEM_MAX_ETHER, 87
+	bg_hidden_item_event 20, 29, 3, ITEM_PP_MAX 87
 	bg_event 28, 9, 0, BG_EVENT_PLAYER_FACING_ANY, Route119_EventScript_1F49E3
 
 Route119_MapEvents:: @ 852B3E4

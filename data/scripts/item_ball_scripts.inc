@@ -55,7 +55,7 @@ Route110_EventScript_290D81:: @ 8290D81
 	end
 
 Route110_EventScript_290D8E:: @ 8290D8E
-	giveitem_std ITEM_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route111_EventScript_290D9B:: @ 8290D9B
@@ -71,7 +71,7 @@ Route111_EventScript_290DB5:: @ 8290DB5
 	end
 
 Route111_EventScript_290DC2:: @ 8290DC2
-	giveitem_std ITEM_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route112_EventScript_290DCF:: @ 8290DCF
@@ -167,7 +167,7 @@ Route119_EventScript_290EED:: @ 8290EED
 	end
 
 Route119_EventScript_290EFA:: @ 8290EFA
-	giveitem_std ITEM_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route119_EventScript_290F07:: @ 8290F07
@@ -187,7 +187,7 @@ Route119_EventScript_290F2E:: @ 8290F2E
 	end
 
 Route119_EventScript_290F3B:: @ 8290F3B
-	giveitem_std ITEM_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route120_EventScript_290F48:: @ 8290F48
@@ -231,7 +231,7 @@ Route123_EventScript_290FBD:: @ 8290FBD
 	end
 
 Route123_EventScript_290FCA:: @ 8290FCA
-	giveitem_std ITEM_ELIXIR, 1, 1
+	giveitem_std ITEM_PP_UP, 1, 1
 	end
 
 Route123_EventScript_290FD7:: @ 8290FD7

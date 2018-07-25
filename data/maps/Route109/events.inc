@@ -33,7 +33,7 @@ Route109_MapBGEvents: @ 8528C7C
 	bg_hidden_item_event 16, 23, 3, ITEM_GREAT_BALL, 50
 	bg_hidden_item_event 33, 5, 3, ITEM_NUGGET, 52
 	bg_hidden_item_event 9, 10, 3, ITEM_GREAT_BALL, 51
-	bg_hidden_item_event 28, 20, 3, ITEM_ETHER, 64
+	bg_hidden_item_event 28, 20, 3, ITEM_PP_UP, 64
 	bg_hidden_item_event 13, 16, 3, ITEM_NUGGET, 90
 	bg_hidden_item_event 8, 42, 3, ITEM_NUGGET, 91
 
